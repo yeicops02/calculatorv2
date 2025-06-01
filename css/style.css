@@ -130,4 +130,13 @@ h1 {
 
 .color-naranja {
     background-color: #E49502;
+    
+}
+
+.color-naranja:hover,
+.color-gris-oscuro:hover, 
+.color-gris-claro:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
